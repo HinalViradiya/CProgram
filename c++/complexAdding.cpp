@@ -20,7 +20,7 @@ public:
         cout << re << "+" << im << "i"
              << "\n";
     }
-    void sum(Complex, Complex);
+    void sum(Complex, Complex);  // Object passed as argument.
 };
 
 void Complex::sum(Complex c1, Complex c2)
@@ -32,6 +32,7 @@ void Complex::sum(Complex c1, Complex c2)
 int main()
 {
     Complex c1, c2, c3;
+    int n;
     cout << "Enter 1st complex no.: \n";
     c1.get();
     cout << "\nEnter 2nd complex no.: \n";
